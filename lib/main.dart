@@ -9,8 +9,22 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Container(
-      color: Colors.green[50]
+    return MaterialApp(
+      home: Scaffold(
+        appBar: AppBar(
+          title: const Text("My First App",
+          style: const TextStyle(fontSize: 25),),
+          centerTitle: true,
+        ),
+        body: const Center(
+          child: const Text("Hello World",
+            style: const TextStyle(
+              fontSize: 25,
+              color: Colors.blue
+            ) ,
+          ),
+        ),
+      )
     );
   }
 }
