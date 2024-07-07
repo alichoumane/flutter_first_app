@@ -1,3 +1,3 @@
-# i3350_project1
+# A first flutter app
 
 This is our first flutter project
