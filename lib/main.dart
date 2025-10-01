@@ -17,7 +17,7 @@ class MyApp extends StatelessWidget {
           centerTitle: true,
         ),
         body: const Center(
-          child: const Text("Hello World",
+          child: const Text("Testing git push",
             style: const TextStyle(
               fontSize: 25,
               color: Colors.blue
